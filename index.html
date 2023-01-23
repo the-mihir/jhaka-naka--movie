@@ -44,11 +44,11 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class>
         <section
             class="hero__banner w-full h-screen pt-24 bg-[url('./images/banner.jpg')] bg-cover bg-center bg-no-repeat flex items-center">
-            <div class="container mx-auto px-5">
-                <h2 class="font-bebas text-2xl uppercase text-white">Movie production studio</h2>
+            <div class="container mx-auto px-5 md:px-36">
+                <hl2 class="font-bebas text-2xl uppercase text-white">Movie production studio</hl2>
                 <h1 class="font-bebas text-7xl uppercase text-white  ">Films MAde To <br>
                     <span class="text-yellow">Perfection</span>
                 </h1>
@@ -63,7 +63,7 @@
             </div>
         </section>
 
-        <section class="about__section my-40 px-36">
+        <section class="about__section my-40 px-5 md:px-36">
             <div class="w-full about__us container mx-auto border-2 ">
                 <div class="about__info_with__img px-5 lg:flex gap-x-8 m-2 p-5">
                     <div class="about__img lg:w-1/2">
@@ -84,7 +84,7 @@
                             href="#">Discover More</a>
                     </div>
                 </div>
-                <div class="w-full our__vission grid grid-cols-3 gap-6 mx-auto p-5">
+                <div class="w-full our__vission grid lg:grid-cols-3 gap-6 mx-auto p-5 md:px-36">
                     <div class="vissionn__div border-t-8">
                         <h2 class="text-4xl font-bebas mt-4">Our Vision</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos pariatur maiores nostrum
@@ -104,6 +104,81 @@
             </div>
         </section>
 
+        <section class="our__movies container pt-32 pb-28 px-5 md:px-36 bg-gray mx-auto">
+            <h2 class="text-xl font-bebas text-white">OUR MOVIES</h2>
+            <div class="our__movies__heading md:flex justify-between items-center">
+                <div class="heading mb-5">
+                    <h2 class="text-6xl font-bebas text-white">Movie collection</h2>
+                </div>
+                <div class="heading__button">
+                    <a class="uppercase text-white font-bebas border-2 py-2 px-5 text-black hover:bg-yellow hover:text-white hover:border-yellow transition ease-in-out "
+                        href="#">Discover More</a>
+                </div>
+            </div>
+            <div class="movie__card grid gap-4 md:grid md:grid-cols-4 mt-8">
+                <div class="poster__block p-4 border-solid border-2 border-white">
+                    <img class="h-[400px] w-full" src="./images/inception.jpg" alt="">
+                </div>
+                <div class="poster__block p-4 border-solid border-2 border-white">
+                    <img class="h-[400px] w-full" src="./images/interstellar.jpg" alt="">
+                </div>
+                <div class="poster__block p-4 border-solid border-2 border-white">
+                    <img class="h-[400px] w-full" src="./images/fractured.jpg" alt="">
+                </div>
+                <div class="poster__block p-4 border-solid border-2 border-white">
+                    <img class="h-[400px] w-full" src="./images/tenet.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="our__offer container mx-auto mt-40 pt-10 pb-28">
+            <div class="section__heading mx-5">
+                <h2 class="text-xl font-bebas text-center ">OUR MOVIES</h2>
+                <h2 class="text-6xl font-bebas text-center">what we offer</h2>
+            </div>
+
+            <div class="mx-6 md:grid md:grid-cols-4 gap-10 mt-12 ">
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/camera.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-1</h2>
+                    <p>Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/count-down.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-2</h2>
+                    <p>Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/cut-board.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-3</h2>
+                    <p>Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/director-chair.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-4</h2>
+                    <p>Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/film.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-5</h2>
+                    <p>Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/theater.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-6</h2>
+                    <p class="">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</pc>
+                </div>
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/rim.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-7</h2>
+                    <p>Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="offer__box border-2 p-8">
+                    <img class="py-4" src="./images/icons/3d-glasss.png" alt="">
+                    <h2 class="text-xl font-bebas">sub heading-8</h2>
+                    <p>Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
