@@ -46,7 +46,7 @@
     </header>
     <main>
         <section
-            class="hero__bannerS h-screen pt-24 bg-[url('./images/banner.jpg')] bg-cover bg-center bg-no-repeat flex items-center">
+            class="hero__banner w-full h-screen pt-24 bg-[url('./images/banner.jpg')] bg-cover bg-center bg-no-repeat flex items-center">
             <div class="container mx-auto px-5">
                 <h2 class="font-bebas text-2xl uppercase text-white">Movie production studio</h2>
                 <h1 class="font-bebas text-7xl uppercase text-white  ">Films MAde To <br>
@@ -62,26 +62,48 @@
                     href="#">Discover More</a>
             </div>
         </section>
-        <div class="about__us container mx-auto px-5 flex gap-x-8 p-5 mt-40 mb-40 border-2">
-            <div class="about__img">
-                <img src="./images/camera-man.jpg" alt="">
-                <h3
-                    class="border-2 max-w-lg -mt-20 bg-white mx-auto py-4 text-center text-black font-bold rounded-md drop-shadow-md ">
-                    23
-                    YEARS of
-                    EXPERIENCE
-                </h3>
+
+        <section class="about__section my-40 px-36">
+            <div class="w-full about__us container mx-auto border-2 ">
+                <div class="about__info_with__img px-5 lg:flex gap-x-8 m-2 p-5">
+                    <div class="about__img lg:w-1/2">
+                        <img src="./images/camera-man.jpg" alt="">
+                        <h3
+                            class="max-w-lg  bg-white mx-auto py-4 text-center text-black font-bold rounded-md drop-shadow-md -translate-y-[50%]">
+                            23
+                            YEARS of
+                            EXPERIENCE
+                        </h3>
+                    </div>
+                    <div class="about__info lg:w-1/2">
+                        <h3 class="text-xl font-bebas mt-24">about us</h3>
+                        <h2 class="font-bebas text-7xl pt-2">FIlming Experience<br>Just Got better</h2>
+                        <p class="pt-3 pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                            pariatur omnis quam tenetur delectus. Facere veritatis dicta iste molestias porro?</p>
+                        <a class="uppercase font-bebas border-2 py-2 px-5 text-black hover:bg-yellow hover:text-white hover:border-yellow transition ease-in-out "
+                            href="#">Discover More</a>
+                    </div>
+                </div>
+                <div class="w-full our__vission grid grid-cols-3 gap-6 mx-auto p-5">
+                    <div class="vissionn__div border-t-8">
+                        <h2 class="text-4xl font-bebas mt-4">Our Vision</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos pariatur maiores nostrum
+                            corporis. Delectus repellendus voluptas officia. Nobis, dolores atque!</p>
+                    </div>
+                    <div class="vissionn__div border-t-8">
+                        <h2 class="text-4xl font-bebas mt-4">Our Vision</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos pariatur maiores nostrum
+                            corporis. Delectus repellendus voluptas officia. Nobis, dolores atque!</p>
+                    </div>
+                    <div class="vissionn__div border-t-8">
+                        <h2 class="text-4xl font-bebas mt-4">Our Vision</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos pariatur maiores nostrum
+                            corporis. Delectus repellendus voluptas officia. Nobis, dolores atque!</p>
+                    </div>
+                </div>
             </div>
-            <div class="about__info">
-                <h3 class="text-xl font-bebas mt-24">about us</h3>
-                <h2 class="font-bebas text-7xl pt-2">FIlming Experience<br>Just Got better</h2>
-                <p class="pt-3 pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur pariatur omnis
-                    quam tenetur
-                    delectus. Facere veritatis dicta iste molestias porro?</p>
-                <a class="uppercase font-bebas border-2 py-2 px-5 text-black hover:bg-yellow hover:text-white hover:border-yellow transition ease-in-out "
-                    href="#">Discover More</a>
-            </div>
-        </div>
+        </section>
+
     </main>
 </body>
 
