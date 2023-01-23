@@ -34,10 +34,10 @@
 </head>
 
 <body>
-    <header class="bg-white sticky top-0">
+    <header class="bg-white fixed top-0 right-0 left-0 px-5">
         <nav class="flex justify-between container mx-auto items-center h-24 text-black ">
             <h1 class="text-4xl font-bebas">Jhaka Naka Movies</h1>
-            <ul class="flex font-bebas text-lg gap-6">
+            <ul class="flex font-bebas text-lg  gap-6">
                 <li><a href=" #">About Us</a></li>
                 <li><a href="#">Our Movies</a></li>
                 <li><a href="#">Services</a></li>
@@ -45,10 +45,22 @@
         </nav>
     </header>
     <main>
-        <section class="hero__banner bg-red-500 h-screen">
-
-
-
+        <section
+            class="hero__bannerS h-screen pt-24 bg-[url('./images/banner.jpg')] bg-cover bg-center bg-no-repeat flex items-center">
+            <div class="container mx-auto px-5">
+                <h2 class="font-bebas text-2xl uppercase text-white">Movie production studio</h2>
+                <h1 class="font-bebas text-7xl uppercase text-white  ">Films MAde To <br>
+                    <span class="text-yellow">Perfection</span>
+                </h1>
+                <p class="font-montserrat text-white max-w-lg pt-4 pb-8">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit.
+                    Ut elit
+                    tellus,
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <a class="uppercase font-bebas border-2 py-2 px-5 text-white hover:bg-yellow hover:text-white hover:border-yellow transition ease-in-out "
+                    href="#">Discover More</a>
+            </div>
         </section>
     </main>
 </body>
